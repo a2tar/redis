@@ -11,5 +11,6 @@
 # Sample Usage:
 #
 class redis {
-
+  include redis::config
 }
+
