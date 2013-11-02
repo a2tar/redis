@@ -1,13 +1,18 @@
 {
   "name": "a2tar-redis",
   "version": "0.1.0",
-  "summary": "",
+  "summary": "Latest stable redis-server (from ppa:chris-lea/redis-server) on ubuntu",
   "author": "a2tar",
   "description": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "1.2.0"
+    }
+  ],
   "types": [],
   "checksums": {},
-  "source": "",
-  "project_page": "",
-  "license": ""
+  "source": "https://github.com/a2tar/redis.git",
+  "project_page": "https://github.com/a2tar/redis",
+  "license": "license \u0027Apache License, Version 2.0\u0027"
 }
